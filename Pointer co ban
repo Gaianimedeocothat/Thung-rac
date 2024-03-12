@@ -1,0 +1,16 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+#include <iomanip>
+using namespace std;
+int main() {
+    int m=300;
+    float fx=300.600006;
+    char cht='z';
+    int *p1=&m;
+    float *p2=&fx;
+    char *p3=&cht;
+    cout<<"Dung &: "<<&m<<" "<<&fx<<" "<<&cht<<endl;
+    cout<<"Dung *: "<<p1<<", "<<p2<<", "<<p3<<endl;
+    cout<<"Gia tri: "<<*p1<<", "<<setprecision(9)<<*p2<<", "<<*p3<<endl;
+    return 0;
+}
